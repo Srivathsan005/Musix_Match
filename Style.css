@@ -1,0 +1,135 @@
+* {
+    margin: 0%;
+    padding: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-between;
+    width: 50%;
+    align-items: center;
+}
+
+nav ul li {
+    list-style-type: none;
+    cursor: pointer;
+}
+
+nav ul li:hover {
+    color: coral;
+}
+
+nav ul li .login-button {
+    background-color: chartreuse;
+    color: black;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+.starting-sec {
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.starting-sec h1 {
+    font-size: 90px;
+}
+
+.Subdiv-1,
+.Subdiv-2,
+.Subdiv-3,
+.Subdiv-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Subdiv-1 ul li,
+.Subdiv-2 ul li,
+.Subdiv-3 ul li,
+.Subdiv-4 ul li {
+    list-style-type: none;
+}
+
+.Main-div {
+    display: flex;
+    margin-top: 80px;
+}
+
+.musicmatch-image1 {
+    display: block;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+.musicmatch-image2 {
+    display: block;
+    margin-top: 80px;
+    cursor: pointer;
+}
+
+button {
+    background-color: whitesmoke;
+    color: black;
+    padding: 10px;
+    border-radius: 20px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.seemorebutton {
+    display: flex;
+    margin-top:20%;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.middlesec h5 {
+    display: flex;
+    justify-content: space-around;
+    margin-left: 5%;
+    border: 10px solid transparent;
+    text-align: left;
+    margin-top: 80px;
+    margin-bottom: 30px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.iconbuttons1 {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.iconbuttons2 {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.second-sec {
+    background-color: white;
+    margin-left: 100px;
+    margin-top: 50px;
+    padding:30px;
+}
+
+.second-sec h2 {
+    font-size:30px;
+}
+
+.second-sec,
+.secondsec1 {
+    display: block;
+    margin-top: 80px;
+    justify-content: right;
+    align-content: right;
+}
